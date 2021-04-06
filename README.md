@@ -17,3 +17,5 @@ mongoimport --type csv -d test -c products --headerline --drop products.csv
 > -c: Specifies what collection to use. We used a collection called products.\
 > –headerline: Specifies that the first row in our csv file should be the field names.\
 > –drop: Specifies that we want to drop the collection before importing documents.
+
+For detailed overview [Click here!](https://kb.objectrocket.com/mongo-db/how-to-import-a-csv-into-mongodb-327)
