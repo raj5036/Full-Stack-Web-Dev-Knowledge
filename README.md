@@ -2,8 +2,8 @@
 
 ## Undo Git init
 
-1.Fire up the terminal.
-2.Get inside that intended directory.
+1.Fire up the terminal.\
+2.Get inside that intended directory.\
 3.And run the following command.
 
 ```
