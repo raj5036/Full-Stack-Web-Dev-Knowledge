@@ -1,5 +1,15 @@
 # Full-Stack-Web-Dev-Knowledge
 
+## Undo Git init
+
+1.Fire up the terminal.
+2.Get inside that intended directory.
+3.And run the following command.
+
+```
+rm -rf .git
+```
+
 ## Importing Data into a MongoDB Collection from a .csv/.xlsx files
 
 1. Turn on the MongoDB server in your localmachine.
