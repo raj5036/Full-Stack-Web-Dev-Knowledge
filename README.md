@@ -2,11 +2,10 @@
 
 # Table of contents
 1. [Git](#Git)
-2. [MongoDB](#MongoDB)
+2. [MongoDB](#)
   1.[Import data from csv files](#csv)
-  2.[Mongo Commands]
-    1.[Delete all data from a collection](#delCollection)
-
+  2.[Delete all data from a collection](#delCollection)
+ 
 
 ## Undo Git init <a name="Git"></a>
 
@@ -18,7 +17,7 @@
 rm -rf .git
 ```
 
-## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="MongoDB" name="#csv"></a>
+## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="#csv"></a>
 
 1. Turn on the MongoDB server in your localmachine.
 2. Fire up a terminal and head over to the directory where the file is stored.
