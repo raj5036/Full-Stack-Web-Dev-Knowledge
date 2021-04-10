@@ -1,24 +1,11 @@
 # Full-Stack-Web-Dev-Knowledge
 
 # Table of contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+1. [Git](#Git)
+2. [MongoDB](#MongoDB)
 
-## This is the introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
 
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
-
-## Undo Git init
+## Undo Git init <a name="Git"></a>
 
 1.Fire up the terminal.\
 2.Get inside that intended directory.\
@@ -28,7 +15,7 @@ The second paragraph text
 rm -rf .git
 ```
 
-## Importing Data into a MongoDB Collection from a .csv/.xlsx files
+## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="MongoDB"></a>
 
 1. Turn on the MongoDB server in your localmachine.
 2. Fire up a terminal and head over to the directory where the file is stored.
