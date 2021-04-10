@@ -3,6 +3,9 @@
 # Table of contents
 1. [Git](#Git)
 2. [MongoDB](#MongoDB)
+  1.[Import data from csv files](#csv)
+  2.[Mongo Commands]
+    1.[Delete all data from a collection](#delCollection)
 
 
 ## Undo Git init <a name="Git"></a>
@@ -15,7 +18,7 @@
 rm -rf .git
 ```
 
-## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="MongoDB"></a>
+## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="MongoDB" name="#csv"></a>
 
 1. Turn on the MongoDB server in your localmachine.
 2. Fire up a terminal and head over to the directory where the file is stored.
@@ -34,3 +37,12 @@ mongoimport --type csv -d test -c products --headerline --drop products.csv
 > –drop: Specifies that we want to drop the collection before importing documents.
 
 For detailed overview [Click here!](https://kb.objectrocket.com/mongo-db/how-to-import-a-csv-into-mongodb-327)
+
+
+## MongoDB CLI commands
+
+### Delete all from collections <a name="#delCollection"></a
+
+```
+db.user.remove({})
+```
