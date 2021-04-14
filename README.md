@@ -5,6 +5,12 @@
 2. [MongoDB](#)
    * [Import data from csv files](#csv)
    * [Delete all data from a collection](#delCollection)
+3. [JavaScript Essentials](#javascript-essentials)
+   * [Execution Context]
+   * [Callbacks in JavaScript]
+   * [Hoisting]
+   * [async-await]
+   * [Closures]
  
 
 ## Undo Git init <a name="Git"></a>
