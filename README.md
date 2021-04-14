@@ -3,8 +3,8 @@
 # Table of contents
 1. [Git](#Git)
 2. [MongoDB](#)
-  1. [Import data from csv files](#csv)
-  2. [Delete all data from a collection](#delCollection)
+  * [Import data from csv files](#csv)
+  * [Delete all data from a collection](#delCollection)
  
 
 ## Undo Git init <a name="Git"></a>
