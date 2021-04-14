@@ -23,7 +23,7 @@
 rm -rf .git
 ```
 
-## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="#csv"></a>
+## Importing Data into a MongoDB Collection from a .csv/.xlsx files <a name="csv"></a>
 
 1. Turn on the MongoDB server in your localmachine.
 2. Fire up a terminal and head over to the directory where the file is stored.
@@ -46,15 +46,15 @@ For detailed overview [Click here!](https://kb.objectrocket.com/mongo-db/how-to-
 
 ## MongoDB CLI commands
 
-### Delete all from collections <a name="#delCollection"></a
+### Delete all from collections <a name="delCollection"></a
 
 ```
 db.user.remove({})
 ```
 
-## JavaScript Essesntials <a href="#javascript-essentials"></a>
+## JavaScript Essesntials <a href="javascript-essentials"></a>
 
-### Execution Context <a href="#execution-context"></a>
+### Execution Context <a href="execution-context"></a>
 
   In JavaScript, execution context is an abstract concept that holds information about the environment within which the current code is being executed.
   
