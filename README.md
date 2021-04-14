@@ -6,11 +6,11 @@
    * [Import data from csv files](#csv)
    * [Delete all data from a collection](#delCollection)
 3. [JavaScript Essentials](#javascript-essentials)
-   * [Execution Context]
-   * [Callbacks in JavaScript]
-   * [Hoisting]
-   * [async-await]
-   * [Closures]
+   * [Execution Context](#execution-context)
+   * [Callbacks in JavaScript](#)
+   * [Hoisting](#)
+   * [async-await](#)
+   * [Closures](#)
  
 
 ## Undo Git init <a name="Git"></a>
@@ -51,3 +51,11 @@ For detailed overview [Click here!](https://kb.objectrocket.com/mongo-db/how-to-
 ```
 db.user.remove({})
 ```
+
+## JavaScript Essesntials <a href="#javascript-essentials"></a>
+
+### Execution Context <a href="#execution-context"></a>
+
+  In JavaScript, execution context is an abstract concept that holds information about the environment within which the current code is being executed.
+  
+  Remember: the JavaScript engine creates the global execution context before it starts to execute any code. From that point on, a new execution context gets created every time   a function is executed, as the engine parses through your code. In fact, the global execution context is nothing special. It’s just like any other execution context, except     that it gets created by default.
