@@ -5,8 +5,8 @@
 2. [MongoDB](#)
    * [Import data from csv files](#csv)
    * [Delete all data from a collection](#delCollection)
-3. [JavaScript Essentials](#javascript_essentials)
-   * [Execution Context](#execution_context)
+3. [JavaScript Essentials](#javascriptEssentials)
+   * [Execution Context](#executionContext)
    * [Callbacks in JavaScript](#)
    * [Hoisting](#)
    * [async-await](#)
@@ -52,9 +52,9 @@ For detailed overview [Click here!](https://kb.objectrocket.com/mongo-db/how-to-
 db.user.remove({})
 ```
 
-## JavaScript Essesntials <a href="javascript_essentials"></a>
+## JavaScript Essesntials <a href="javascriptEssentials"></a>
 
-### Execution Context <a href="execution_context"></a>
+### Execution Context <a href="executionContext"></a>
 
   In JavaScript, execution context is an abstract concept that holds information about the environment within which the current code is being executed.
   
